@@ -11,6 +11,7 @@ class lnWalker {
     lnY1=int(random(100,500)); lnY2=lnY1;
   }
   
+  // commit test
   void render() {
     stroke(r,g,b);
     line(lnX1,lnY1,lnX2,lnY2);
